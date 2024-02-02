@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>어게인트립 로그인창</title>
+    <style>
+        
+        @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+        
+
+        .notosanskr * { 
+        font-family: 'Noto Sans KR', sans-serif;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+            .ir_su {overflow: hidden; position:absolute; width:0; height:0; line-height:0; text-indent:-9999px;} /* 대체 텍스트가 아닌 접근성을 위한 숨김 텍스트를 제공할 때 */
+        }
+
+        .clearfix::after,.clearfix::before{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        li{list-style: none;}
+        #log_wrap{
+            width: 700px;
+            height: 1000px;
+            margin: 0 auto;
+        }
+
+        #log_wrap .logo{
+           padding: 130px 30px 60px 190px;
+        }
+        #log_wrap .logo img{
+            width: 300px;
+            display: block;
+            
+        }
+        #log_wrap .text{
+            text-align: center;
+            font-size: 22px;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        #log_wrap .lg_link{
+            font-size: 12px;
+            text-align: center;
+            font-weight: 200;
+            text-decoration: underline;
+            display: block;
+        }
+        .log_contents{
+            margin-top: 50px;
+            margin-bottom: 10px;
+        }
+        .log_contents .lc_text{
+            /* margin: 50px 130px; */
+            /* float: right; */
+            /* margin-top: 50px; */
+            margin: 0  auto;
+            width: 576px;
+
+        }
+        .log_contents .lc_text .input_text{
+            width: 576px;
+            height: 66px;
+            display: block;
+            border: 1px solid #0078ff;
+            outline: none;
+            padding: 15px 50px;
+            font-size: 24px;
+            /* margin: 10px 0; */
+            border-radius: 10px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        .log_contents .input_check{
+            float: left;
+            width: 20px;
+            height: 20px;
+            background-color: transparent;
+            border: 0;
+            margin-right: 10px;
+            margin-top: 3px;
+        }
+    
+        .log_contents .input_check ul{
+           
+        }
+        .log_contents .input_check ul li{}
+        .log_contents .input_check ul li a{
+           display: block;
+        }
+        .log_footer .ic_btn{
+            border: none;
+            background-color: #0078ff;
+            color: #fff;
+            font-size: 24px;
+            border-radius: 10px;
+            font-weight: 400;
+            width: 579px;
+            height: 66px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 70px;
+
+        }
+        .log_footer .ic_btn a{
+            display: block;
+            line-height: 66px;
+        }
+        .log_footer .btn_text{
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="log_wrap">
+        <h4 class="logo"><img src="./LOGO.png" alt="로그인창 로고이미지"></h4>
+        <p class="text">어게인 트립이 처음이신가요?</p>
+        <a href="#" class="lg_link">회원가입 하러가기</a>
+        <form action="#" method="post" id="login_form" name="login_form">
+             <fieldset style="border: 0;">
+                <div class="log_contents clearfix">
+                    <h5 class="ir_su">로그인 영역</h5>
+                    <div class="lc_text">
+                        <label for="id" class="ir_su">아이디</label>
+                        <input type="text" id="id" name="id" class="input_text" placeholder="ID" maxlength="20" minlength="8" required="required">
+
+                        <label for="pw" class="ir_su">비밀번호</label>
+                        <input type="password" id="pw" name="pw" class="input_text" placeholder="PW" required="required">
+
+                    <h5 class="ir_su">로그인 해결 영역</h5>
+                    <p><input type="checkbox" id="box" name="box" class="input_check"></p>
+                    <ul>
+                        <li>
+                            <p>아이디 / 비밀번호 기억하기</p>
+                        </li>
+                    </ul>
+                    </div>
+                    
+                </div>
+                <div class="log_footer">
+                    <button class="ic_btn" type="submit"><a href="./index.html">Login</a></button>
+                    <ul class="btn_text">
+                        <li><a href="#">아이디</a> &middot; <a href="#">비밀번호</a> 찾기</li>
+                    </ul>
+                </div>
+            </fieldset>
+        </form>
+
+          
+    </div>
+</body>
+</html>

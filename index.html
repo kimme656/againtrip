@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>AGAIN TRIP</title>
+    
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="wrap">
+        <div id="h_top">
+            <div class="container2">
+                <div class="h_top">
+                    <ul class="clearfix">
+                        <li><a href="./login.html">로그인</a></li>
+                        <li><a href="./login.html">회원가입</a></li>
+                        <li><a href="#">예약확인</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                </div><!--.h_top--> 
+            </div><!--.container--> 
+        </div><!--#h_top--> 
+        <div id="h_bottom">
+            <div class="container2">
+                <div class="h_bottom clearfix">
+                    <h1 class="logo">
+                        <a href="./index.html"><img src="./images/LOGO.png" alt="로고"></a>
+                    </h1>
+                    <nav class="nav">
+                        <ul class="clearfix">
+                            <li><a href="#">해외여행</a>
+                                <ul class="submenu">
+                                    <li><a href="#">유럽</a></li>
+                                    <li><a href="#">아시아</a></li>
+                                    <li><a href="#">북아메리카</a></li>
+                                    <li><a href="#">남아메리카</a></li>
+                                    <li><a href="#">아프리카</a></li>
+                                    <li><a href="#">오세아니아</a></li>
+                                    <li><a href="#">휴양지</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">국내여행</a>
+                                <ul class="submenu">
+                                    <li><a href="#">제주도</a></li>
+                                    <li><a href="#">부산</a></li>
+                                    <li><a href="#">강원도</a></li>
+                                    <li><a href="#">전라도</a></li>
+                                    <li><a href="#">충청도</a></li>
+                                    <li><a href="#">울릉도</a></li>
+                                    <li><a href="#">흑산도/백령도</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">허니문</a>
+                                <ul class="submenu">
+                                    <li><a href="#">유럽</a></li>
+                                    <li><a href="#">동남아</a></li>
+                                    <li><a href="#">몰디브/모리셔스</a></li>
+                                    <li><a href="#">하와이</a></li>
+                                    <li><a href="#">칸쿤</a></li>
+                                    <li><a href="#">괌/사이판</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">항공</a>
+                                <ul class="submenu">
+                                    <li><a href="#">아시아나</a></li>
+                                    <li><a href="#">대한항공</a></li>
+                                    <li><a href="#">티웨이</a></li>
+                                    <li><a href="#">제주에어</a></li>
+                                    <li><a href="#">진에어</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">호텔</a>
+                                <ul class="submenu">
+                                    <li><a href="#">롯데호텔</a></li>
+                                    <li><a href="#">신라호텔</a></li>
+                                    <li><a href="#">호텔예약</a></li>
+                                    <li><a href="#">예약확인</a></li>
+                                    <li><a href="#">리조트</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">여행·편의</a>
+                                <ul class="submenu">
+                                    <li><a href="#">여행자 보험</a></li>
+                                    <li><a href="#">비자</a></li>
+                                    <li><a href="#">와이파이</a></li>
+                                    <li><a href="#">e-SIM</a></li>
+                                    <li><a href="#">공항라운지</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">프리미엄</a>
+                                <ul class="submenu">
+                                    <li><a href="#">항공혜택</a></li>
+                                    <li><a href="#">5성급 호텔</a></li>
+                                    <li><a href="#">선별 가이드</a></li>
+                                    <li><a href="#">단독 투어</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div><!--.h_bottom--> 
+             </div><!--.container--> 
+        </div><!--#h_bottom--> 
+        <div class="navbg"></div>
+
+            <section id="banner">
+                <div class="container">
+                    <div class="banner_menu">
+                        <div class="b_box">
+                            <h2>어디든지 검색하세요!</h2>
+                            <div class="menu">
+                                <a href="#">패키지</a>
+                                <a href="#">항공</a>
+                                <a href="#">호텔</a>
+                            </div>
+                            <div class="search">
+                                <label for="utext" class="ir_so">여행지 검색</label>
+                                <input type="text" id="utext" class="select" placeholder="여행지 검색">
+                                
+                                <label for="utext" class="ir_so">출발지 검색</label>
+                                <input type="text" id="utext" class="select" placeholder="출발지 검색">
+
+                                <label for="utext" class="ir_so">여행 일정 선택</label>
+                                <input type="text" id="utext" class="select" placeholder="여행 일정 선택">
+                            </div><!--.search--> 
+                            <div class="go">
+                                <a href="#">여행지 검색하기</a>
+                            </div><!--.go--> 
+                        </div><!--.b_box--> 
+                    </div><!--.banner_menu-->
+                    <div class="popup">
+                        <img src="./images/POPUP.jpg" alt="팝업이미지">
+                        <div class="close">닫기X</div>
+                    </div>
+              </div><!--.container--> 
+
+                <div class="slider">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide ss1">
+                            <img src="./images/banner1.png" />
+                            <div class="container">
+                                <div class="s_box">
+                                    <p><span>청춘은</span> 어게인트립!</p>
+                                    <em>어게인 트립에서 제공하는 최대의 청춘 혜택을 누리세요</em>
+                                </div><!--.s_box--> 
+                               
+                            </div><!--.container--> 
+                          </div><!--.ss1--> 
+                          <div class="swiper-slide ss2">
+                            <img src="./images/banner2.png" />
+                            <div class="container">
+                                <div class="s_box">
+                                    <p><span class="blue">바다로</span> 어게인트립!</p>
+                                    <em>스트레스는 바다로 다 날려버려요!</em>
+                                </div><!--.s_box--> 
+                            </div><!--.container--> 
+                          </div><!--.ss2--> 
+                          <div class="swiper-slide ss3">
+                            <img src="./images/banner3.png" />
+                            <div class="container">
+                                <div class="s_box">
+                                    <p><span>선물같은</span> 어게인트립!</p>
+                                    <em>그동안 고생한 나에게 환상적인 일주일을</em>
+                                </div><!--.s_box--> 
+                            </div><!--.container--> 
+                          </div><!--.ss3--> 
+                          <div class="swiper-slide ss4">
+                            <img src="./images/banner4.png" />
+                            <div class="container">
+                                <div class="s_box">
+                                    <p><span class="blue">효도여행도</span> 어게인트립!</p>
+                                    <em>부모님들이 좋아할만한 여행지들도 준비해뒀어요!</em>
+                                </div><!--.s_box--> 
+                            </div><!--.container-->  
+                          </div><!--.ss4-->
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                      </div><!--.swiper--> 
+                    
+                </div><!--.slider--> 
+            </section>
+
+            <section id="hot_con">
+                <div class="container">
+                    <div class="hot_con">
+                        <h3><span>HOT</span>인스타 감성 여행</h3>
+                        <figure class="list">
+                            <div class="Apic">A pick</div>
+                            <div class="l_img">
+                                <img src="./images/cont_hot01.png" alt="오사카 이미지">
+                            </div> 
+                            <figcaption>
+                                <p>오사카-교토-고베 주요 관광지 포함된 
+                                알찬 <br>2박3일!</p>
+                                <em>#고베야경  #청주출발  #교토여행</em>
+                            </figcaption>
+                        </figure>
+                        <figure class="list">
+                            <div class="Apic">A pick</div>
+                            <div class="l_img">
+                                <img src="./images/cont_hot02.png" alt="오사카 이미지">
+                            </div> 
+                            <figcaption>
+                                <p>나트랑 왕복 항공권  +  여행자 보험<br>4일/5일 6일 </p>
+                                <em>#빈펄  #나트랑  #자유여행</em>
+                            </figcaption>
+                        </figure>
+                        <figure class="list">
+                            <div class="Apic">A pick</div>
+                            <div class="l_img">
+                                <img src="./images/cont_hot03.png" alt="오사카 이미지">
+                            </div> 
+                            <figcaption>
+                                <p>어게인 트립 최다 판매 Best! - 터키일주 <br>7박 9일</p>
+                                <em>#이스탄불 전경  #해협크루즈  #아시아나항공</em>
+                            </figcaption>
+                        </figure>
+                    </div><!--.hot_con--> 
+                </div><!--.container-->  
+            </section> 
+
+            <section id="tabmenu">
+                <div class="container">
+                    <div class="tabmenu">
+                        <h3>효도 여행 특가</h3>
+                        <div class="tab_btn">
+                            <ul>
+                                <li class="active"><a href="#">국내 효도 여행</a></li>
+                                <li><a href="#">해외 효도 여행</a></li>
+                            </ul>
+                        </div><!--.tab_btn--> 
+                        <div class="tab_con">
+                            <div class="con_k">
+                                <div class="left">
+                                    <img src="./images/cont2_img2.png" alt="해외 여행 특가">
+                                 </div><!--.left--> 
+                                <div class="right">
+                                    <strong>가정의 달 특가  [50명 한정]</strong>
+                                    <p>강원도 평창 2박 3일</p>
+                                    <em>#출발일 5/1, 5/3 ,6,7,11,13</em>
+                                    <em>#대관령 양떼목장 체험</em>
+                                    <em>#온 가족 힐링하기 좋은 루트</em>
+                                    <p>#최대 20만원 할인</p>
+                                    <span class="price">
+                                        <p>600,000</p>
+                                        <strong>400,000</strong>
+                                        <div class="reserv">예약하기</div>
+                                    </span>
+                                </div><!--.right--> 
+                            </div>
+                            <div class="con_e">
+                                <div class="left">
+                                    <img src="./images/cont2_img1.png" alt="해외 여행 특가">
+                                 </div><!--.left--> 
+                                <div class="right">
+                                    <strong>가정의 달 특가  [30명 한정]</strong>
+                                    <p>이탈리아 6박 9일</p>
+                                    <em>#출발일 5/1, 5/4 ,6,8,10</em>
+                                    <em>#이탈리아 핵심 관광지 포함</em>
+                                    <em>#알프스 산맥 등 힐링 스팟</em>
+                                    <p>#최대 70만원 할인</p>
+                                    <span class="price">
+                                        <p>2,500,000</p>
+                                        <strong>1,890,000</strong>
+                                        <div class="reserv">예약하기</div>
+                                    </span>
+                                </div><!--.right--> 
+                            </div>
+                        </div>
+                    </div><!--.tabmenu--> 
+                </div><!--.container--> 
+            </section>
+
+            <section id="Kotakin">
+                <div class="container2">
+                    <div class="kotak_left">
+                        <div class="kleft_text">
+                            <h4><span>#코타키나발루</span>노을 보러 가자!</h4>
+                            <p>차원이 다른 노을,<br>황홀함에 빠져보세요.<br>소중한 추억이 쌓여갑니다.</p>
+                            <div class="ko_link">바로가기<span><img src="./images/con3_icon.png" alt="바로가기 화살표"></span></div>
+                        </div>
+                         <img src="./images/cont3.png" alt="코타키나발루 배경1">
+                    </div><!--.kleft_text--> 
+              </div><!--.container2--> 
+                <div class="container">
+                    <div class="kotakin">
+                        <div class="kotak_right">
+                         <p>A place where there is a sunset</p>
+                         <img src="./images/cont3_1.png" alt="코타키나발루 노을1">
+                         <img src="./images/cont3_2.png" alt="코타키나발루 노을2">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="package">
+                <div class="container">
+                    <div class="package">
+                        <h3>바쁜 현대인들을 위한<span class="span1"> 짧굵</span><span class="span2"> 패키지</span></h3>
+                        <div class="slick">
+                            <div class="c_slide1">
+                                <img src="./images/con4_1(1.1).png" alt="후쿠오카">
+                                <span>
+                                    <strong>후쿠오카</strong>
+                                    <p>2박3일 일정</p>
+                        
+                                </span>
+                            </div><!--.c_slide1-->
+                            <div class="c_slide2">
+                                <img src="./images/con4_2(1.1).png" alt="후쿠오카">
+                                <span>
+                                    <strong>도쿄</strong>
+                                    <p>2박3일 일정</p>
+                                  
+                                </span>
+                            </div><!--.c_slide2-->
+                            <div class="c_slide3">
+                                <img src="./images/con4_3(1.1).png" alt="후쿠오카">
+                                <span>
+                                    <strong>싱가포르</strong>
+                                    <p>2박3일 일정</p>
+                                  
+                                </span>
+                            </div><!--.c_slide3-->
+                            <div class="c_slide4">
+                                <img src="./images/con4_4(1.1).png" alt="후쿠오카">
+                                <span>
+                                    <strong>대만</strong>
+                                    <p>3박4일 일정</p>
+                                  
+                                </span>
+                            </div><!--.c_slide4-->
+                            <div class="c_slide5">
+                                <img src="./images/con4_5(1.1).png" alt="후쿠오카">
+                                <span>
+                                    <strong>제주도</strong>
+                                    <p>2박3일 일정</p> 
+                                    
+                                </span>
+                            </div><!--.c_slide5-->
+                            <div class="c_slide6">
+                                <img src="./images/con4_6(1.1).png" alt="후쿠오카">
+                                <span>
+                                    <strong>홍콩</strong>
+                                    <p>3박4일 일정</p>
+                                  
+                                </span>
+                            </div><!--.c_slide6-->
+                            <div class="c_slide7">
+                                <img src="./images/con4_7(1.1).png" alt="후쿠오카">
+                                <span>
+                                    <strong>울릉도</strong>
+                                    <p>3박4일 일정</p>
+                                  
+                                </span>
+                            </div><!--.c_slide7-->
+                        </div><!--.slick-->
+                    </div><!--.package-->
+                </div><!--.container-->
+            </section>
+
+            <section id="sub_ban">
+                <img src="./images/subbenner.jpg" alt="이벤트배너">
+            </section>
+
+            <section id="notice">
+                <div class="container">
+                    <h5 class="h5">공지사항</h5>
+                    <div class="notice">
+                        <ul class="list">
+                            <li class="list_text"><a href="#">[어게인트립]-창립 10주년 이벤트 당첨자 안내</a></li>
+                            <li class="list_text"><a href="#">긴급!! 가정의 달 맞이 초특가 이벤트 진행중 서두르세요.</a></li>
+                            <li class="list_text"><a href="#">[오류]-로그인 오류 안내</a></li>
+                            <li class="list_text"><a href="#">청년혜택 이렇게나 다양하다고? - 지금 바로 확인</a></li>
+                            <li class="list_text"><a href="#">인기 해외 여행지 보러가기</a></li>
+                        </ul>
+                    </div><!--.notice--> 
+                    <div class="more"><a href="#">더보기</a></div>
+                </div><!--.container--> 
+            </section>
+
+            <footer id="footer_top">
+                <div class="container">
+                    <article class="f_top">
+                        <div class="f_nav">
+                            <ul class="clearfix">
+                                <li><a href="#">회사소개</a></li>
+                                <li><a href="#">이용약관</a></li>
+                                <li><a href="#">개인정보처리방침</a></li>
+                                <li><a href="#">여행약관</a></li>
+                                <li><a href="#">해외여행자보험</a></li>
+                                <li><a href="#">마케팅제휴</a></li>
+                                <li><a href="#">공식인증예약센터검색</a></li>
+                            </ul>
+                        </div><!--.f_nav--> 
+                       <div class="f_sns">
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fa-brands fa-blogger"></i></a>
+                                </li>
+                            </ul>
+                         </div>
+                    </article>
+                </div>
+            </footer>
+            <div id="footer_bottom">
+                <div class="container">
+                    <article class="f_bottom clearfix">
+                        <div class="f_bottom_l">
+                            <div class="f_main">
+                                <p>(주)어게인투어|대표 : 김미나 주소 :  서울시 구로구 구로길 435-3 어게인빌딩</p>
+                                <p>사업자 등록 번호 : 123-45-00958 &nbsp;&nbsp;|&nbsp;&nbsp;사업자 정보 확인 &nbsp;&nbsp;|&nbsp;&nbsp;통신판매업 신고번호 : 구로 104-69&nbsp;&nbsp;|&nbsp;&nbsp;관광 사업자 등록번호 : 제1999-000007호</p>
+                            </div><!--.f_main--> 
+                            <div class="f_copy">COPYRIGHTⓒ HANATOUR SERVICE INC. ALL RIGHTS RESERVED</div><!--.f_copy--> 
+                            <div class="f_call">
+                                <a href="#"><i class="fa-solid fa-headset"></i></a>고객센터 1588 - 9632</div><!--.f_call--> 
+                        </div><!--.f_bottom_l--> 
+                        <div class="f_bottom_r">
+                            <div class="f_f">제휴사이트
+                                <ul>
+                                    <li><a href="https://flyasiana.com/C/KR/KO/index" target="_blank">아시아나항공</a></li>
+                                    <li><a href="https://www.koreanair.com/" target="_blank">대한항공</a></li>
+                                    <li><a href="https://www.lottehotel.com/global/ko.html" target="_blank">롯데호텔</a></li>
+                                    <li><a href="https://www.shillahotels.com/index.do" target="_blank">신라호텔</a></li>
+                                    <li><a href="https://display.cjonstyle.com/" target="_blank">CJONSTYLE</a></li>
+                                    <li><a href="https://www.hmall.com/p/index.do" target="_blank">현대홈쇼핑</a></li>
+                                    <li><a href="https://www.gsshop.com/index.gs" target="_blank">GS SHOP</a></li>
+                                    <li><a href="https://www.lotteimall.com/main/viewMain.lotte#disp_no=5235018" target="_blank">롯데홈쇼핑</a></li>
+                                    <li><a href="https://www.shoppingntmall.com/" target="_blank">쇼핑엔티</a></li>
+                                </ul>
+                                <img src="./images/f_icon.png" alt="제휴사 화살표">
+                            </div><!--.f_f--> 
+                        </div><!--.f_bottom_r--> 
+                    </article>
+                </div><!--.container--> 
+            </div><!--#footer_bottom--> 
+
+    </div><!--#wrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./script/slick.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      let swiper = new Swiper(".swiper", {
+      spaceBetween: 30,
+      effect: "fade",
+
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+        loop: true,
+
+        keyboard: {
+         enabled: true,
+        },
+        autoplay: true,
+        delay:1500,
+
+    });
+
+
+        //네비
+        $(".nav>ul>li").hover(function(){
+            $(this).find(".submenu").stop().slideDown(200);
+            $(".navbg").stop().slideDown(200);
+            $(".nav>ul>li>.submenu a").show();
+        },function(){
+            $(this).find(".submenu").stop().slideUp(200);
+            $(".navbg").stop().slideUp(200);
+        });
+
+
+        //탭메뉴
+        const tab_btn =$(".tab_btn >ul >li");
+        const tab_con =$(".tab_con > div");
+        tab_con .hide().eq(0).show();
+
+        tab_btn.click(function(e){
+            e.preventDefault();
+            let target =$(this);
+            let index = target.index();
+            tab_btn.removeClass("active");
+            target.addClass("active");
+            tab_con.hide().eq(index).show();
+        });
+
+
+        //slick
+        $('.slick').slick({
+            infinite: true,
+            centerMode: true,
+            centerPadding: '50px',
+            slidesToShow: 5,
+            arrows: true,
+            autoplay: true,
+            autoplaySpeed: 1500,
+        });
+
+
+        const List =$(".notice>.list");
+        const ListText =$(".notice>.list>.list_text");
+
+        setInterval(function(){
+            List.animate({top:"-50px"},500,function(){
+                $(".list_text:first-child").appendTo(List);
+                List.css("top","0");
+            });
+        },3000);
+
+        //familysite
+
+        $(".f_f").click(function(){
+            $(".f_f ul").toggleClass("on");
+            $(".f_f ul li").toggleClass("on2");
+        });
+
+
+        //popup
+
+        $(".popup>.close").click(function(){
+            $(".popup").hide();
+        });
+    </script>
+
+
+
+</body>
+</html>
